@@ -1,0 +1,88 @@
+*{
+	box-sizing: border-box;
+}
+
+header {
+	grid-area: header;	
+}
+footer {
+	grid-area: footer;
+}
+
+body {
+	background-image: url('./destiny-background.jpg');
+	line-height: 1.4;
+}
+#top section, #top header, #top footer {
+	max-width: 60em;
+	margin: 0 auto;
+	padding: 10px;
+}
+header{
+	color: #000000;
+	padding-bottom: 15px;
+	text-align: right;
+}
+header img{
+	border-radius: 50em;
+}
+.col-II {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.col-III {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.col-IIII {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	background-color: #000000;
+}
+.row-II{
+	display: grid;
+	grid-auto-rows: 1fr 1fr;
+}
+.topmenu {
+	background: linear-gradient(#101c1a, #ffffff)
+	padding: 5px;
+	border-radius: 10px;
+	margin-top: 15px;	
+}
+.topmenu a{
+	padding: 5px;
+	border-right: 1px solid #ffffff;
+	color: #ffffff;
+	text-decoration: none;
+}
+.topmenu a:first-of-type {
+	border-left: 1px solid #ffffff;
+}
+#top section{
+	background-color: white;
+}
+#top section:first-of-type {
+	text-align: center;
+	background: linear-gradient(#101c1a, #ffffff);
+}
+#top section:last-of-type {
+	color: #000000;
+}
+.bottommenu a{
+	background-color: #ffffff;
+	color: #000000;
+	text-decoration: none;
+}
+.saga {
+	background: linear-gradient(#101c1a, #ffffff)
+	padding: 5px;
+	border-radius: 10px;
+	margin-top: 15px;
+	text-align: center;	
+}
+.saga a{
+	padding: 5px;
+	border-right: 1px solid #ffffff;
+	color: #ffffff;
+	text-decoration: none;
+}
